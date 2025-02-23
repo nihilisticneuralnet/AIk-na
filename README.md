@@ -1,3 +1,3 @@
-# Marathi_speech
+# AI-k na
 
 - https://huggingface.co/blog/fine-tune-whisper
