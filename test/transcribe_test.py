@@ -1,3 +1,5 @@
+!pip install transformers torch torchaudio gradio soundfile ffmpeg-python pydub ipywebrtc
+
 from transformers import pipeline
 import ipywidgets as widgets
 from IPython.display import display
@@ -35,3 +37,25 @@ def on_button_click(b):
 button.on_click(on_button_click)
 
 display(uploader, button, output)
+
+
+# from huggingface_hub import notebook_login
+# notebook_login()
+# from transformers import pipeline
+# import gradio as gr
+
+# pipe = pipeline(model="sanchit-gandhi/whisper-small-hi")  # change to "your-username/the-name-you-picked"
+
+# def transcribe(audio):
+#     text = pipe(audio)["text"]
+#     return text
+
+# iface = gr.Interface(
+#     fn=transcribe,
+#     inputs=gr.Audio(sources="microphone", type="filepath"),
+#     outputs="text",
+#     title="Whisper Small Hindi",
+#     description="Realtime demo for Hindi speech recognition using a fine-tuned Whisper small model.",
+# )
+
+# iface.launch()
