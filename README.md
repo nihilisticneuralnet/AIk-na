@@ -1,5 +1,11 @@
 # AI-k na
 
+
+## Finetune
+
+#### Dataset used: [OpenSLR](https://openslr.org/64/)
+
+
 ## References
 
 - https://huggingface.co/blog/fine-tune-whisper
@@ -8,3 +14,4 @@
 - https://huggingface.co/coqui/XTTS-v2
 - https://huggingface.co/spaces/ai4bharat/indic-parler-tts
 - https://huggingface.co/learn/audio-course/en/chapter7/voice-assistant
+- https://openslr.org/64/
