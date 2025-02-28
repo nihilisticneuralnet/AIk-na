@@ -1,0 +1,8 @@
+torch
+transformers
+gradio
+numpy
+pyaudio
+wave
+deep-translator
+requests
