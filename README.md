@@ -1,4 +1,4 @@
-# AI-k na
+# AIk-na (aka ऐक ना): Marathi AI Voice Assistant
 
 
 ## Finetune
