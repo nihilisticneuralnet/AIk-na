@@ -6,3 +6,4 @@ pyaudio
 wave
 deep-translator
 requests
+huggingface_hub
